@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.box{
+	display:grid;
+	grid-template-columns:100px 100px 100px;
+	grid-template-rows:100px 100px 100px;
+	gap:5px;
+	}
+.ccols{
+	text-align:center;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+}
