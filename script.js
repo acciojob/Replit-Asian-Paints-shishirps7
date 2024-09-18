@@ -7,6 +7,13 @@ btn.addEventListener("click",(e)=>{
 	e.preventDefault()
 	let x=col.value;
 	let y=parseInt(num.value)-1;
+	
+	for(let z = 0; z < boxes.length; z++){
+        if(z == y){
+            continue;
+        }
+        boxes[z].style.backgroundColor = "transparent";
+    }
 	boxes[y].style.backgroundColor=x
 });
 
