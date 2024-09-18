@@ -6,7 +6,7 @@
 	gap:5px;
 	}
 .grid-item{
-	background-color:transparent;
+	background-color:rgb(255, 0, 0);
 	text-align:center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
 }
