@@ -1,9 +1,9 @@
 //your JS code here. If required.
 let boxes=document.querySelectorAll(".ccols");
-let num=document.querySelector("#num");
-let col=document.querySelector("#col");
-let btn=document.querySelector("button");
-let reset=document.querySelector("#resett");
+let num=document.querySelector("#block_id");
+let col=document.querySelector("#colour_id");
+let btn=document.querySelector("change_button");
+let reset=document.querySelector("#Reset");
 btn.addEventListener("click",(e)=>{
 	e.preventDefault()
 	let x=col.value;
