@@ -3,6 +3,7 @@ let boxes=document.querySelectorAll(".ccols");
 let num=document.querySelector("#num");
 let col=document.querySelector("#col");
 let btn=document.querySelector("button");
+let reset=document.querySelector("#resett");
 btn.addEventListener("click",(e)=>{
 	e.preventDefault()
 	let x=col.value;
@@ -16,5 +17,11 @@ btn.addEventListener("click",(e)=>{
     }
 	boxes[y].style.backgroundColor=x
 });
+reset.addEventListener("click",(e)=>{
+	for(let z = 0; z < boxes.length; z++){
+       
+        boxes[z].style.backgroundColor = "transparent";
+    }
+})
 
 
